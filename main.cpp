@@ -1,4 +1,5 @@
 #include <iostream>
+#include "function.h"
 using namespace std;
 
 int main()
@@ -7,7 +8,10 @@ int main()
 int answer=0;
 
 	answer = 5 + 5;
-	cout << "5 + 5=" << answer;
+	cout << "5 + 5=" << answer << endl;
+	
+	multiply(answer);
+	cout<<endl;
 	
 	//Person 2: Anthony updates
 	//---------------------------
